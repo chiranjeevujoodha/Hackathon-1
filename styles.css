@@ -89,6 +89,10 @@ a {
   padding: 8px;
   margin-bottom: 16px;
   box-sizing: border-box;   
+  border-color: white;
+  border: none;
+  background-color: aliceblue;
+  border-radius: 5px;
 }
 
 .form-container button {
