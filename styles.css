@@ -38,3 +38,68 @@ a {
     padding: 0 30px;
 }
 
+
+
+/* ----------------------------------------------------------------- */
+/* CONTACT PAGE */
+
+.container {
+    /* border: 1px solid red; */
+    margin-top: 50px;
+    height: 75vh;
+    display: flex;
+}
+
+.text-container {
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 50%;
+
+}
+
+.text-container h1 {
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+.text-container p {
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.form-container {
+    /* border: 1px solid blue; */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    width: 40%;
+    
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.form-container input, textarea {
+
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;   
+}
+
+.form-container button {
+
+        background-color: #007bff;
+        width: 50%;
+        color: #fff;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+
+      
+}
