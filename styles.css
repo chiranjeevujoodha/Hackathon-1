@@ -48,23 +48,26 @@ a {
     margin-top: 50px;
     height: 75vh;
     display: flex;
+    justify-content: space-evenly;
 }
 
 .text-container {
     /* border: 1px solid black; */
     height: 100%;
-    width: 50%;
+    width: 40%;
 
 }
 
 .text-container h1 {
     padding-top: 50px;
     padding-left: 30px;
+    font-size: 3em;
 }
 
 .text-container p {
     padding-top: 10px;
     padding-left: 30px;
+    font-size: 1.5em;
 }
 
 .form-container {
