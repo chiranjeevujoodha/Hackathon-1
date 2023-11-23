@@ -17,6 +17,10 @@ html, body {
     font-weight: 300;
 }
 
+/* ---------------------------------------------------------------------- */
+/* FOOTER */
+
+
 
 
 /* ----------------------------------------------------------------- */
@@ -100,80 +104,27 @@ html, body {
 
   /* Projects page */
 
-  .header {
+.header {
+    height: 100px;
     width: 100%;
-    height: 90%;
-    /* border: 1px solid red; */
-    margin-top: 30px;
-    display: flex;
-    justify-content: space-evenly;
-  }
-
-  .header h1 {
-    padding-top: 20px;
-  }
-
-  .header .title {
-    height: 100%;
-    width: 40%;
     /* border: 1px solid black; */
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-  }
-
-  .header .add-campaign {
-    height: 100%;
-    width: 40%;
-    /* border: 1px solid black; */
-    /* display: flex;
-    justify-content: center; */
-    text-align: center;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-
-
-
-  .add-container {
-    /* border: 1px solid black; */
-    margin-top: 30px;
-  }
-
-  .add-container label {
-    display: block;
-    margin-bottom: 8px;
 }
 
-.add-container input, textarea {
+.campaigns-box {
+    /* border: 1px solid black; */
+    height: 100%;
+    flex-direction: column;
+    
+}
 
-    width: 75%;
-    padding: 8px;
-    margin-bottom: 16px;
-    box-sizing: border-box;   
-    border-color: white;
-    border: none;
-    background-color: aliceblue;
-    border-radius: 5px;
-  }
-  
-  .add-container button {
-  
-          background-color: #007bff;
-          width: 50%;
-          color: #fff;
-          padding: 15px 15px;
-          border: none;
-          border-radius: 4px;
-          cursor: pointer;
-          margin-top: 20px;
-      
-        
-  }
+.campaigns {
+    height: 30%;
+    width: 100%;
+    /* border: 1px solid red; */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
-  .add-container button:hover {
-    background-color: #0056b3;
-  }
 
 
 
