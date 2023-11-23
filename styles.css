@@ -107,24 +107,60 @@ html, body {
 .header {
     height: 100px;
     width: 100%;
+    background-color: #0056b3;
+    color: whitesmoke;
     /* border: 1px solid black; */
 }
 
 .campaigns-box {
     /* border: 1px solid black; */
     height: 100%;
+    width: 80%;
     flex-direction: column;
+    margin: 0 auto;
+    margin-top: 20px;
+
     
 }
 
+
+
 .campaigns {
-    height: 30%;
+    height: 20%;
     width: 100%;
     /* border: 1px solid red; */
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid black;
+    padding: 30px 10px;
+    
+
 }
 
+.campaigns h2 {
+    font-weight: 900;
+    font-size: 1.5rem;
+   
+}
+
+.campaigns h5 {
+    /* font-weight: 600; */
+    font-size: 1rem;
+}
+
+.campaign-details {
+    /* border: 1px solid black; */
+}
+
+.campaign-description {
+    /* border: 1px solid black; */
+}
+
+.campaign-title {
+    /* border: 1px solid black; */
+}
+
+.campaign-btns {
+    /* border: 1px solid black; */
+}
 
 
 
