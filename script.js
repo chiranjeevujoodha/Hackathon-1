@@ -1,6 +1,6 @@
 
-function btnSent(){
-    var contactbtn = document.querySelector('#contact-btn')
-    contactbtn.innerHTML = 'Sent'
-    contactbtn.
+function interested(button){
+
+    button.style.backgroundColor = "#28a745"
+    
 }
