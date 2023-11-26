@@ -17,8 +17,18 @@ html, body {
     font-weight: 300;
 }
 
-/* ---------------------------------------------------------------------- */
-/* FOOTER */
+/* ------------------------------------------------------------------------------ */
+/* HOMEPAGE / INDEX  */
+
+
+.main {
+    height: 100%;
+    width: 90%;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+
 
 
 
@@ -109,16 +119,46 @@ html, body {
     width: 100%;
     background-color: #0056b3;
     color: whitesmoke;
+    /* border: 1px solid red; */
+}
+
+/* .camp-container {
+    border: 1px solid black;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+
+    
+    
+} */
+
+/* .camp-container hr {
+    width: 80%;
+} */
+
+
+.add-new-btn {
     /* border: 1px solid black; */
+    width: 80%;
+    margin: 20px auto;
+    
+}
+
+.add-new-btn button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #0056b3;
+    color: whitesmoke;
 }
 
 .campaigns-box {
-    /* border: 1px solid black; */
+    /* border: 1px solid black;     */
     height: 100%;
     width: 80%;
     flex-direction: column;
-    margin: 0 auto;
-    margin-top: 20px;
+    margin: 0 auto
+    
 
     
 }
@@ -145,6 +185,13 @@ html, body {
     /* font-weight: 600; */
     font-size: 1rem;
 }
+
+.campaigns button {
+    background-color: #0056b3;
+    border: none;
+}
+
+
 
 
 
