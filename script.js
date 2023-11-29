@@ -11,15 +11,29 @@ function interested(button){
     }
 
 
-    // var flag = 0
-
-    // if (flag == 0) {
-    //     button.style.backgroundColor = 'green'
-    //     flag = 1
-    // } else {
-    //     button.style.backgroundColor = '#0056b3'
-    //     flag = 0
-    // }
     
 }
 
+
+function submitForm(){
+    var name = document.getElementById('name').value
+    var organisor = document.getElementById('organisor').value
+    var location = document.getElementById('location').value
+    var date = document.getElementById('date').value
+    var description = document.getElementById('description').value
+    
+    var formData = {
+        name: name,
+        organisor: organisor,
+        location: location,
+        date: date,
+        description: description
+    };
+    myArray.push(formData);
+
+    console.log(myArray);
+
+    document.getElementById('campaignForm').reset();
+}
+
+var myArray = []

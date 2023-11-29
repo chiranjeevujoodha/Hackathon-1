@@ -51,12 +51,12 @@
       <div class="camp-container">
 
           <div class="add-new-btn">
-            <button class="btn btn-primary">Add New Campaign</button>
+            <button class="btn btn-primary" ><a href="#campaigns-form">Add New Campaign</a></button>
           </div>
     
     
     
-          <div class="campaigns-box">
+          <div class="campaigns-box" >
             <div class="campaigns item-1">
     
                 <div class="campaign-title">
@@ -176,26 +176,26 @@
     
           </div>
 
-          <div class="container new-campaign">
+          <div class="container new-campaign" id="campaigns-form">
 
             <div class="new-campaign-form">
-                <form action="">
+                <form action="" id="campaignForm">
                     <label for="name">Name of Campaign</label>
                     <input type="text" id="name" required>
       
                     <label for="organisor">Organisor</label>
                     <input type="text" id="organisor" required>
       
-                    <label for="Location">Location</label>
-                    <input type="text" id="Location" required>
+                    <label for="location">Location</label>
+                    <input type="text" id="location" required>
 
                     <label for="date">Date</label>
-                    <input type="date" id="date" required>
+                    <input type="date" id="date" >
       
                     <label for="description">Description</label>
-                    <textarea type="text" id="description" rows="4" required></textarea>
+                    <textarea type="text" id="description" rows="4" ></textarea>
       
-                    <button type="submit" id="campaign-btn" >Submit</button>
+                    <button type="submit" id="campaign-btn" onclick="submitForm()" >Submit</button>
                 </form>
             </div>
 

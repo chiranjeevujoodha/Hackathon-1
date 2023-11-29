@@ -213,6 +213,11 @@ html, body {
     color: whitesmoke;
 }
 
+.add-new-btn a {
+    color: white;
+    text-decoration: none;
+}
+
 .campaigns-box {
     /* border: 1px solid black;     */
     height: 100%;
@@ -253,8 +258,10 @@ html, body {
 }
 
 
+
+
 .new-campaign {
-    height: 100vh;
+    
     width: 100%;
     /* border: 1px solid black; */
     background-color: #fff;
