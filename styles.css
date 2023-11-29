@@ -21,11 +21,42 @@ html, body {
 /* HOMEPAGE / INDEX  */
 
 
+.hero {
+    height: 60%;
+    width: 100%;
+    /* border: 1px solid blue; */
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
 .main {
     height: 100%;
     width: 90%;
     border: 1px solid black;
     margin: 0 auto;
+}
+
+.banner {
+    height: 30%;
+    width: 100%;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.banner a{
+    color: white;
+    text-decoration: none;
 }
 
 
