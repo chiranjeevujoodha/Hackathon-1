@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
-        <title>Hackathon | Sign-In</title>
+        <title>Hackathon | Sign-Up</title>
     </head>
 <body>
 
@@ -20,19 +20,25 @@
         <div class="signin-container">
           <form action="">
             <div class="signin-header text-center">
-                <h1>Sign in</h1>
-                <p>New user? <a href="signup.html">Sign up</a></p>
+                <h1>Sign Up</h1>
+                <p>Already a user? <a href="signin.html">Sign in</a></p>
             </div>
             <hr>
+              <label for="firstname">First Name</label>
+              <input type="text" id="firstname" required>
+
+              <label for="lastname">Last Name</label>
+              <input type="text" id="lastname" required>
+
               <label for="email">Email</label>
               <input type="text" id="email" required>
 
               <label for="password">Password</label>
               <input type="password" id="password" required>
 
-            <p><a id="forgotpassword" href="#">Forgot password</a></p>
 
-              <button  type="submit" id="signin-btn" >Sign in</button>
+
+              <button  type="submit" id="signin-btn" >Sign up</button>
           </form>
       </div>
 
