@@ -17,6 +17,10 @@ html, body {
     font-weight: 300;
 }
 
+#signup a {
+    color:whitesmoke;
+}
+
 /* ------------------------------------------------------------------------------ */
 /* HOMEPAGE / INDEX  */
 
@@ -85,12 +89,7 @@ html, body {
     height: calc(100vh - 56px);
     /* padding-top: 10em; */
 }
-.text-container {
-    /* border: 1px solid black; */
-    /* height: 100%;
-    width: 40%; */
 
-}
 
 .text-container h1 {
     padding-top: 50px;
@@ -104,7 +103,7 @@ html, body {
     font-size: 1.5em;
 }
 
-.form-container {
+.signin-container {
     /* border: 1px solid blue; */
     background-color: #fff;
     padding: 20px;
@@ -115,14 +114,14 @@ html, body {
     
 }
 
-.form-container label {
+.signin-container label {
     display: block;
     margin-bottom: 8px;
 }
 
-.form-container input, textarea {
+.signin-container input, textarea {
 
-  width: 100%;
+  /* width: 20%; */
   padding: 8px;
   margin-bottom: 16px;
   box-sizing: border-box;   
@@ -132,7 +131,7 @@ html, body {
   border-radius: 5px;
 }
 
-.form-container button {
+.signin-container button {
 
         background-color: #007bff;
         width: 50%;
@@ -146,28 +145,9 @@ html, body {
 }
 
 
-.form-container button:hover {
+.signin-container button:hover {
     background-color: #0056b3;
   }
-/* 
-
-  @media (max-width: 992px) {
-    .container {
-        display: block;
-        height: calc(100% - 106px);
-        margin-top: 0;
-    }
-
-    .text-container {
-        width: 100%;
-        height: auto;
-    }
-
-    .form-container {
-        width: 100%;
-        height: auto;
-    }
-} */
 
 
 
@@ -301,6 +281,60 @@ html, body {
       
 }
 
+/* --------------------------------------------------------------------- */
+/* signin */
+
+/* .signin-container {
+    border: 1px solid black;
+    height: 50vh;
+} */
+
+.signin-container {
+    /* border: 1px solid blue; */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* height: 100%;
+    width: 50%; */
+    
+}
+
+.signin-container label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.signin-container input, textarea {
+
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;   
+  border-color: white;
+  border: none;
+  background-color: aliceblue;
+  border-radius: 5px;
+}
+
+.signin-container button {
+
+        background-color: #007bff;
+        width: 50%;
+        color: #fff;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    
+      
+}
+
+
+.signin-container button:hover {
+    background-color: #0056b3;
+  }
+/* 
 
 
 
