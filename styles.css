@@ -173,7 +173,7 @@ html, body {
 
   /* -------------------------------------------------------------------- */
 
-  /* Projects page */
+  /* Projects campaigns page */
 
 .header {
     height: 100px;
@@ -287,6 +287,15 @@ html, body {
         cursor: pointer;
     
       
+}
+
+
+.campaign-description h5 {
+    font-weight: bolder;
+}
+
+.campaign-btns h5 {
+    font-weight: bolder;
 }
 
 /* --------------------------------------------------------------------- */
