@@ -16,7 +16,11 @@ html, body {
 
 #navbarNav a {
     color: black;
-    font-weight: 300;
+    font-weight:bolder;
+}
+
+#navbarNav {
+    height: 54px;
 }
 
 #signup a {
