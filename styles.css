@@ -12,6 +12,8 @@ html, body {
 /* --------------------------------------------------------------------------- */
 /* NAVBAR */
 
+
+
 #navbarNav a {
     color: black;
     font-weight: 300;
@@ -24,9 +26,14 @@ html, body {
 /* ------------------------------------------------------------------------------ */
 /* HOMEPAGE / INDEX  */
 
+.page1 {
+    height: 100vh;
+    border: 1px solid red;
+}
+
 
 .hero {
-    height: 60%;
+    height: 100%;
     width: 100%;
     /* border: 1px solid blue; */
 }
@@ -103,25 +110,25 @@ html, body {
     font-size: 1.5em;
 }
 
-.signin-container {
+.form-container {
     /* border: 1px solid blue; */
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     /* height: 100%;
-    width: 50%; */
+    width:40%; */
     
 }
 
-.signin-container label {
+.form-container label {
     display: block;
     margin-bottom: 8px;
 }
 
-.signin-container input, textarea {
+.form-container input, textarea {
 
-  /* width: 20%; */
+  width: 100%;
   padding: 8px;
   margin-bottom: 16px;
   box-sizing: border-box;   
@@ -131,7 +138,7 @@ html, body {
   border-radius: 5px;
 }
 
-.signin-container button {
+.form-container button {
 
         background-color: #007bff;
         width: 50%;
@@ -145,7 +152,7 @@ html, body {
 }
 
 
-.signin-container button:hover {
+.form-container button:hover {
     background-color: #0056b3;
   }
 
