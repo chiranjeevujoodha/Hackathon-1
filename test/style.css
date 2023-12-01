@@ -1,0 +1,11 @@
+
+.page1 {
+    background-image: url('../images/photo-1565803974275-dccd2f933cbb.avif');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+
