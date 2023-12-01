@@ -50,16 +50,30 @@ html, body {
 
 .banner {
     height: 30%;
-    width: 100%;
+    width: 90%;
     color: white;
     gap: 15%;
     /* border: 1px solid red; */
     display: flex;
+    margin: 0 auto;
+   
+    
+    align-items: center;
+    justify-content: center;
+  
+}
+
+/* .banner-box {
+    width: 50%;
+    border: 1px solid blue;
+    height: 100%;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    position: absolute;
-}
+    gap: 15%;
+    
+} */
 
 
 
