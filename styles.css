@@ -67,6 +67,7 @@ html, body {
 
 
 
+
 .banner a{
     color: white;
     text-decoration: none;
@@ -91,6 +92,40 @@ html, body {
 .footer-box button {
     width: 50%;
 }
+
+.footer-box button a {
+    color: white;
+    text-decoration: none;
+}
+
+/* ------------------------------------- */
+
+/* ABOUT */
+
+.about {
+    /* height: 40%; */
+    /* border: 1px solid red; */
+    background-color: #f2e8cf;
+    /* padding-bottom: 10; */
+}
+
+.about-title {
+    /* border: 1px solid black; */
+    height: 10%;
+}
+
+.about-content {
+    /* border: 1px solid black; */
+    /* height: 90%; */
+    width: 40%;
+    
+    white-space: wrap;
+    overflow: auto;
+    text-overflow: ellipsis; /* or use 'clip' */
+    
+    
+}
+
 
 
 
