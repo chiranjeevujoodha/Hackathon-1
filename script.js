@@ -38,15 +38,18 @@ function submitForm(){
 
     console.log(myArray);
 
-    document.getElementById('campaignForm').reset();
+    // document.getElementById('campaignForm').reset();
+
+    alert('New campaign added')
 }
+
+var myArray = []
 
 function validateEmail(email) {
     var re = /\S+@\S+\.\S+/;
     return re.test(email);
 }
 
-var myArray = []
 
 function contact(){
     var fname = document.getElementById('fname').value
@@ -70,8 +73,8 @@ function contact(){
     
         console.log(contactArray);
 
-        document.getElementById('contactform').reset();
-        
+        // document.getElementById('contactform').reset();
+
         alert('Form submitted successfully.');
     }
 
