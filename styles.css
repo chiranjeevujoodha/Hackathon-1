@@ -63,17 +63,6 @@ html, body {
   
 }
 
-/* .banner-box {
-    width: 50%;
-    border: 1px solid blue;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 15%;
-    
-} */
 
 
 
@@ -83,6 +72,41 @@ html, body {
     text-decoration: none;
 }
 
+.sub-footer {
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    /* height: 50vh; */
+}
+
+.sub-footer .container {
+    /* border: 1px solid black; */
+    height: 100%;
+}
+
+.sub-footer .footer-box {
+    /* border: 1px solid black; */
+    height: 100%;
+}
+
+.footer-box button {
+    width: 50%;
+}
+
+
+
+.social-links {
+    /* border: 1px solid red; */
+    /* height: 30px; */
+}
+
+.social-links i {
+    font-size: 2rem;
+}
+
+.sitemap a {
+    text-decoration: none;
+    color: black;
+}
 
 
 
