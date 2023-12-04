@@ -4,10 +4,10 @@ function interested(button){
     // var btn = document.querySelector('#btn1')
 
 
-    console.log(button.style.backgroundColor)
+    console.log(button.style.backgroundColor);
     if(button.style.backgroundColor == '' || button.style.backgroundColor == 'rgb(0, 86, 179)') {
 
-        button.style.backgroundColor = 'green'
+        button.style.backgroundColor = 'green';
     } else {
        
         button.style.backgroundColor = '#0056b3';
@@ -41,4 +41,42 @@ function submitForm(){
     document.getElementById('campaignForm').reset();
 }
 
+function validateEmail(email) {
+    var re = /\S+@\S+\.\S+/;
+    return re.test(email);
+}
+
 var myArray = []
+
+function contact(){
+    var fname = document.getElementById('fname').value
+    var lname = document.getElementById('lname').value
+    var email = document.getElementById('email').value
+    var msg = document.getElementById('message').value
+
+    if (!validateEmail(email)) {
+        alert('Please enter a valid email.');
+        
+    } else {
+        var contactData = {
+            fname: fname,
+            lname: lname,
+            email: email,
+            msg: msg
+    
+        };
+    
+        contactArray.push(contactData);
+    
+        console.log(contactArray);
+
+        document.getElementById('contactform').reset();
+        
+        alert('Form submitted successfully.');
+    }
+
+
+
+}
+
+var contactArray = []
