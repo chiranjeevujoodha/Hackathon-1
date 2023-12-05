@@ -8,6 +8,14 @@ function interested(button){
     if(button.style.backgroundColor == '' || button.style.backgroundColor == 'rgb(0, 86, 179)') {
 
         button.style.backgroundColor = 'green';
+        
+         var childDiv = document.getElementById(button.id)
+         var parentDiv = childDiv.parentNode
+         var refDiv = parentDiv.parentNode.parentElement.firstElementChild
+         var title = refDiv.querySelector('h2').textContent
+         console.log(title)
+
+        alert('You signed up for ' + title + '.')
     } else {
        
         button.style.backgroundColor = '#0056b3';
